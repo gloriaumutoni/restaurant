@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background: url("https://images.pexels.com/photos/299347/pexels-photo-299347.jpeg?auto=compress&cs=tinysrgb&w=600") no-repeat ;
+background-size: 85.5rem;
+}
+.navbar{
+    background-color: rgb(19, 18, 18);
+    width:100%;
+    height:10vh;
+    display: flex;
+    justify-content:space-between;
+    /* position: fixed; */
+    /* z-index:1; */
+    /* padding-top: -5px; */
+}
+.navbar img{
+width: 80px;
+height:45px;
+}
+.navbar ul{
+    list-style: none;
+    display:flex;
+   /* justify-content: flex-end; */
+   float:right;
+   align-items: flex-end;
+   padding-top:0px;
+   gap: 20px;
+   padding-right: 20px;
+   padding-top: 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+margin-top:20px ;
+color:white;
+}
+.navbar ul li a:hover{
+color:rgb(219, 65, 137);
+/* background-color: white; */
+/* box-shadow: 1px 1px 1px 1px rgb(107, 44, 68); */
+/* border-radius:6px; */
+/* padding:8px; */
+}
+.main{
+color:rgb(223, 217, 217);
+background-color: rgba(0,0,0,0.3);
+width:300px;
+height:290px;
+margin-top:100px;
+margin-left:550px;
+padding-left:50px;
+padding-top:40px;
+border-radius: 10px;
+}
+form button{
+    color:white;
+    background-color: rgb(207, 94, 156);
+    padding:6px;
+   margin-top: 10px;
+   border-color: rgb(207, 94, 156);
+}
+form button:hover{
+    cursor:pointer;
+
+}
+.main input{
+    padding:5px 10px;
+    border-radius: 8px;
+    outline: none;
+    border-color: white;
+}
+
+.back{
+    padding:10px;
+    margin:20px 30px;
+    color:white;
+    background-color: rgb(206, 119, 160);
+    border-color:rgb(206, 119, 160);
+}
+.back a{
+    text-decoration: none;
+    color:white;
+}
+#text{
+    border-radius: 8px;
+    outline:none;
+}
