@@ -5,21 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact</title>
-    <link rel="stylesheet" href="/contact-us.css">
+    <link rel="stylesheet" href="./contact-us.css">
 </head>
 <body>
     <aside class="navbar">
         <div class="logo">
-            <img src="/images/logo-removebg-preview.png" alt="">
+            <img src="./images/logo-removebg-preview.png" onclick="logo()">
         </div>
         <div>
-                <nav>
-                    <ul>
-                        <li><a href="/index1.html">Home</a></li>
-                        <li><a href="/product.html">Product</a></li>
+                <nav >
+                    <ul id="nav">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./product.html">Product</a></li>
                         <li><a href="./services.html">Services</a></li>
-                        <li><a href="/contact-us.html">Contact Us</a></li>
-                        <li><a href="/loginn.html">Login</a></li>
+                        <li><a href="./contact-us.html">Contacts</a></li>
+                        <li><a href="./loginn.html">Login</a></li>
                     </ul>
                 </nav>
             </div>
@@ -38,5 +38,10 @@
             </form>
         </div>
     </div>
+    <script>
+        function logo(){
+         document.getElementById("nav").style.display="flex";
+        }
+     </script>
 </body>
 </html>

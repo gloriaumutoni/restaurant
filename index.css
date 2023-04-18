@@ -4,7 +4,11 @@
     box-sizing: border-box;
     /* margin:-6px; */
 }
-
+body{
+    height: 100rem;
+    width: 100%;
+    overflow-x: hidden;
+}
 .navbar{
     background-color: #131212;
     width:100%;
@@ -44,7 +48,7 @@ color:rgb(219, 65, 137);
 }
 .whole{
     display: flex;
-    gap:100px;
+    gap:15%;
     margin:30px;
     padding:20px;
    /* justify-content: space-between;  */
@@ -135,7 +139,7 @@ h1{
     font-weight: bold;
 }
 .product-detail img{
-    margin-left:50px;
+    margin-left:60px;
     width:150px;
     height:120px;
 }
@@ -241,4 +245,179 @@ form button:hover{
     color: rgb(235, 234, 234);
     cursor: pointer;
 }
+@media screen and (max-width:450px){
+   
+    body{
+        height: 2000rem;
+    }  
+    .navbar{
+        height: 12vh;
+        
+    }
+.navbar ul{
+font-size: 14px;
+padding-top: 16px;
+margin-right:140px;
+ 
+}
+.par{
+   margin: 1px;
+font-size: 16px;
+}
+.par1 h2{
+    width: 300px;
+}
+.whole{
+display: flex;
+flex-direction: column;
+}
+.par2 img{
+    width: 100px;
+   padding-left: 1px;
+}
+.par1{
+padding-left: 6px;
+}
+.button button{
+    font-size: 14px;
+}
+.product h2{
+    margin-top: 10px;
+    margin-left: 6px;
+    font-size: 16px;
+  
+}
+.prod{
+    display: flex;
+    flex-direction: column;
+}
+.img img{
+width: 300px;
+height: 250px;
+}
+#product{
+   display: flex;
+   flex-wrap: wrap;
+   margin-left: 60px;
+}
+.product-detail{
+height: 430px;
+width: 300px;
+}
+.product-detail h2{
+    font-size: 12px;
+}
+.product-detail p{
+    width: 350px;
+}
+.but button{
+    margin-top: 680px;
+    margin-left: 120px;
+}
+.hero{
+    padding-left: 20px;
+}
+}
+@media screen and (max-width:850px){
+   .navbar{
+    height: 5vh;
+   }
+    .hero{
+        padding-top: 100px;
+        padding-left: 200px;
+    }
+}
+/* .navbar ul{
+    display: none; 
+} */
+
+/* HOME PAGE */
+
+/* @media screen and (max-width:850px){
+    .navbar{
+     height: 5vh;
+    }
+     .hero{
+       
+       padding-right: 100px;
+     }
+ } */
+ @media screen and (max-width:850px){
+    body{
+        height: 300rem;
+    }
+    .navbar{
+        height: 3vh;
+    }
+    .par{
+        margin-left: 300px;
+    }
+.whole{
+    margin-left: 1px;
+    gap:2%;
+}
+/* .navbar ul{
+    display: none; 
+} */
+.par1 h2{
+    width: 300px;
+}
+.button button{
+font-size: 12px;
+padding: 10px;
+}
+.par2 img{
+    width: 400px;
+}
+.product h2{
+    margin-left: 160px;
+    font-size: 19px;
+}
+.product p{
+    font-size: 15px;
+    width: 15rem;
+    padding-left: 1px;
+}
+.img img{
+    width: 20rem;
+    height: 16rem;
+    margin-top:60px ;
+}
+.product h1{
+    font-size: 20px;
+}
+#product{
+    flex-wrap: wrap;
+}
+.product-detail img{
+    margin-left:10px;
+}
+.product-detail h2{
+    font-size: 21px;
+    margin-left: 6px;
+}
+.product-detail p{
+    width: 220px;
+}
+.product-detail{
+    margin: 30px;
+}
+.but button{
+    margin-top: 1px;
+    margin-left: 340px;
+}
+}
+@media screen and (max-width:1300px){
+    body{
+        height: 200rem;
+    }
+    .navbar{
+        height: 10vh;
+    }
+    .navbar ul{
+        margin-left: 10px;
+   
+}
+}
+
 

@@ -6,6 +6,7 @@
 body{
     background: url("https://images.pexels.com/photos/299347/pexels-photo-299347.jpeg?auto=compress&cs=tinysrgb&w=600") no-repeat ;
 background-size: 85.5rem;
+overflow: hidden;
 }
 .navbar{
     background-color: rgb(19, 18, 18);
@@ -87,4 +88,44 @@ form button:hover{
 #text{
     border-radius: 8px;
     outline:none;
+}
+
+/* @media screen and (max-width:450px){
+    .navbar{
+        height: 12vh;
+    }
+.navbar ul{
+margin-bottom: 1px;
+margin-right:140px;
+}
+.main{
+   margin-right:10px;
+}
+} */
+@media screen and (max-width:850px){
+    .navbar{
+        height: 2vh;
+    }
+.navbar ul{
+margin-top: 16px;
+/* margin-right:190px; */
+margin-left: 20px;
+display: none; 
+}
+.main{
+    margin-left: 220px;
+}
+}
+@media screen and (max-width:1100px){
+    .navbar{
+        height: 8vh;
+    }
+.navbar ul{
+padding-top: 16px;
+margin-right:240px;
+}
+.main{
+    margin-left: 380px;
+    margin-top: 150px;
+}
 }
